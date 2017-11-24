@@ -15,6 +15,9 @@ The test-bed adaptor's main function is to enable different software solutions t
    _This functionality is already present in Kafka, so I would prefer if we could leverage that._
 6. The adaptor shall limit the size of incoming messages: the adaptor is responsible for distributing large messages by reference (link to the data). _In this case, the adaptor needs to be configured appropriately._
 7. The adaptor shall be able to log all incoming and outgoing messages to file, either in raw format or as text (XML, JSON, etc.)
+8. The adaptor shall send transmit a heartbeat message, so others can see that it's up.
+9. The adaptor shall be configurable externally.
+   _For example, incoming messages and outgoing messages may be blocked by a trial manager._
 
 ## PERFORMANCE REQUIREMENTS
 
