@@ -7,10 +7,11 @@ import com.frequentis.cis.exception.config.CISConfigException;
 
 /*
  * This example shows how to connect to the CIS via the REST Connector.
+ * This means you need to run the CIS Adapter Core Standalone AS WELL!
  * 
  * One configuration file is used here:
  * 
- * config.properties contains the URL (hostname and port) of the CIS Adapter Standalone REST endpoint.
+ * config.properties contains the URL (hostname and port) of the CIS Adapter Core Standalone REST endpoint.
  */
 public class RestAdapterExample {
 
